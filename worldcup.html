@@ -66,8 +66,8 @@ body {
 $(document).ready(function() {
 
   var margin = {top: 40, right: 240, bottom: 40, left: 60},
-      width = 1400 - margin.left - margin.right,
-      height = 1000 - margin.top - margin.bottom;
+      width = 1500 - margin.left - margin.right,
+      height = 1400 - margin.top - margin.bottom;
 
   var x = d3.scale.linear()
       .range([0, width]);
@@ -85,12 +85,13 @@ $(document).ready(function() {
       'GRE' : 'gr', 'HUN' : 'hu', 'ITA' : 'it', 'JPN' : 'jp',
       'MON' : 'mc', 'NED' : 'nl', 'NOR' : 'no', 'NZL' : 'nz',
       'POR' : 'pl', 'PUR' : 'pr', 'RUS' : 'ru', 'SUI' : 'ch',
-      'SWE' : 'se', 'URU' : 'uy', 'USA' : 'us', 'VEN' : 've'
+      'SWE' : 'se', 'URU' : 'uy', 'USA' : 'us', 'VEN' : 've',
+      'BUL' : 'bg', 'SIN' : 'sg', 'HKG' : 'hk', 'IND' : 'in'
   };
-  var events = ["", "Melbourne 2013", "Miami 2013",
-  "Mallorca 2014", "Hyeres 2014", "Garda 2014",
-    "Delta Lloyd 2014", "Sail for Gold 2014", "Kieler 2014", "European 2014",
-    'Santander 2024', 'Melbourne 2014', "Miami 2015"]
+  var events = ["", "Melbourne 13", "Miami 13",
+  "Mallorca 14", "Hyeres 14", "Garda 14",
+    "Delta Lloyd 14", "Sail for Gold 14", "Kieler 14", "European 14",
+    'Santander 14', 'Melbourne 14', "Miami 15", "Mallorca 15", 'Hyeres 15', "Delta Lloyd 15"]
   var xAxis = d3.svg.axis()
       .scale(x)
       .orient("top")
@@ -138,6 +139,9 @@ $(document).ready(function() {
       if (parseInt(d.SAN) > 0) values.push({evt: 10, pos: parseInt(d.SAN)});
       if (parseInt(d.MEL2014) > 0) values.push({evt: 11, pos: parseInt(d.MEL2014)});
       if (parseInt(d.MIA2015) > 0) values.push({evt: 12, pos: parseInt(d.MIA2015)});
+      if (parseInt(d.MAL2015) > 0) values.push({evt: 13, pos: parseInt(d.MAL2015)});
+      if (parseInt(d.HYE2015) > 0) values.push({evt: 14, pos: parseInt(d.HYE2015)});
+      if (parseInt(d.DEL2015) > 0) values.push({evt: 15, pos: parseInt(d.DEL2015)});
       sailors.push({id: idx, name: d.NAME, country: d.COUNTRY, sailno: d.SAILNO, values: values});
     }); // forEach
 
@@ -159,6 +163,9 @@ $(document).ready(function() {
       if (parseInt(d.SAN) > 0) flat.push({id: idx, name: d.NAME, evt: 10, pos: parseInt(d.SAN)});
       if (parseInt(d.MEL2014) > 0) flat.push({id: idx, name: d.NAME, evt: 11, pos: parseInt(d.MEL2014)});
       if (parseInt(d.MIA2015) > 0) flat.push({id: idx, name: d.NAME, evt: 12, pos: parseInt(d.MIA2015)});
+      if (parseInt(d.MAL2015) > 0) flat.push({id: idx, name: d.NAME, evt: 13, pos: parseInt(d.MAL2015)});
+      if (parseInt(d.HYE2015) > 0) flat.push({id: idx, name: d.NAME, evt: 14, pos: parseInt(d.HYE2015)});
+      if (parseInt(d.DEL2015) > 0) flat.push({id: idx, name: d.NAME, evt: 15, pos: parseInt(d.DEL2015)});
 
       if (parseInt(d.MEL) > 0) countries[1][d.MEL] = d.COUNTRY;
       if (parseInt(d.MIA) > 0) countries[2][d.MIA] = d.COUNTRY;
@@ -172,6 +179,9 @@ $(document).ready(function() {
       if (parseInt(d.SAN) > 0) countries[10][d.SAN] = d.COUNTRY;
       if (parseInt(d.MEL2014) > 0) countries[11][d.MEL2014] = d.COUNTRY;
       if (parseInt(d.MIA2015) > 0) countries[12][d.MIA2015] = d.COUNTRY;
+      if (parseInt(d.MAL2015) > 0) countries[13][d.MAL2015] = d.COUNTRY;
+      if (parseInt(d.HYE2015) > 0) countries[14][d.HYE2015] = d.COUNTRY;
+      if (parseInt(d.DEL2015) > 0) countries[15][d.DEL2015] = d.COUNTRY;
     });
 
     country_result10 = [];
@@ -367,7 +377,7 @@ $(document).ready(function() {
     divs.append("label")
       .text(function(d) { return d.sailno + " " + d.name; });
 
-    var gold = [98];
+    var gold = [4, 24, 31, 98];
     for (var idx in gold) {
       $("#checkbox" + gold[idx]).attr('checked', true);
       d3.select(".checkline" + gold[idx]).style('opacity', 1.0);

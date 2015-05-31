@@ -1,123 +1,131 @@
-NAME	COUNTRY	SAILNO	MEL	MIA	MAL	HYE	GAR	DEL	SFG	KIE	EUR	SAN	MEL2014	MIA2015
-Darren Bundock	AUS	AUS-242	1	6	3	3	-1	3	-1	-1	21	9	2	-1
-Euan McNicol	AUS	AUS-158	2	8	9	4	4	-1	-1	-1	12	12	3	13
-Jason Waterhouse	AUS	AUS-003	3	19	16	12	7	6	-1	-1	5	3	1	-1
-Joshua Mcknight	AUS	AUS-157	4	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
-Gemma Jones	NZL	NZL-222	5	-1	14	13	5	12	-1	-1	19	5	-1	5
-Paul Darmanin	AUS	AUS-156	6	-1	-1	-1	-1	-1	-1	15	44	-1	4	-1
-Pip Pietromonaco	AUS	AUS-067	7	-1	69	18	11	22	-1	-1	24	17	-1	-1
-Taylor Burn	NZL	NZL-159	8	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
-Vittorio Bissaro	ITA	ITA-262	-1	1	2	1	1	-1	-1	1	2	4	-1	1
-Thomas Zajac	AUT	AUT-205	-1	2	4	7	-1	-1	-1	4	8	14	-1	11
-Ben Saxton	GBR	GBR-060	-1	3	6	6	-1	4	3	-1	15	19	-1	2
-Iker Martinez de Lizarduy	ESP	ESP-108	-1	4	5	-1	-1	-1	-1	-1	1	68	-1	12
-Federica Salvà	ITA	ITA-219	-1	5	18	17	10	-1	-1	6	26	15	-1	28
-Luke Ramsay	CAN	CAN-100	-1	7	33	31	-1	-1	-1	-1	43	36	-1	17
-Pippa Wilson	GBR	GBR-076	-1	9	13	10	-1	8	2	-1	6	8	-1	-1
-Gabrio Zandonã	ITA	ITA-087	-1	10	20	29	-1	-1	-1	-1	-1	-1	-1	-1
-Toni Rivas	ESP	ESP-204	-1	11	24	-1	-1	-1	-1	-1	65	46	-1	23
-Robert Daniel	USA	USA-038	-1	12	37	-1	-1	-1	-1	-1	-1	47	-1	-1
-Sarah Newberry	USA	USA-023	-1	13	17	19	-1	-1	-1	-1	-1	35	-1	22
-Sandra Sandqvist	SWE	SWE-054	-1	14	42	77	-1	-1	-1	28	-1	-1	-1	-1
-Enrique Figueroa	PUR	PUR-026	-1	15	23	-1	-1	-1	-1	-1	-1	25	-1	10
-Lucy Macgregor	GBR	GBR-042	-1	16	7	9	-1	16	1	-1	17	7	-1	14
-Lucas Gonzalez Smith	ARG	ARG-239	-1	17	-1	33	-1	-1	-1	-1	-1	-1	-1	-1
-Nicole van der Velden	ARU	ARU-212	-1	18	29	20	6	19	-1	-1	10	24	-1	24
-Allan Norregaard	DEN	DEN-248	-1	20	15	15	-1	23	-1	2	4	11	-1	-1
-Taylor Reiss	USA	USA-023	-1	21	41	-1	-1	-1	-1	-1	-1	-1	-1	-1
-Stephanie Hudson	USA	USA-123	-1	22	-1	-1	-1	-1	9	17	50	40	-1	-1
-Jeremy Wilmot	AUS	USA-232	-1	23	-1	-1	-1	-1	-1	-1	-1	41	-1	25
-Ingrid Petitjean	FRA	FRA-199	-1	24	21	25	9	5	-1	-1	63	38	-1	-1
-Sandra Tartaglino	USA	USA-033	-1	25	-1	-1	-1	-1	-1	-1	-1	-1	-1	35
-Mark Mendelblatt	USA	USA-027	-1	26	34	-1	14	17	-1	-1	-1	-1	-1	26
-Lin Ea Cenholt Christiansen	DEN	DEN-082	-1	27	39	21	-1	21	-1	9	29	29	-1	-1
-Anne-Line Lyngsø Thomsen	DEN	DEN-080	-1	28	54	58	-1	-1	-1	20	-1	51	-1	-1
-Katelyn Flood	USA	USA-189	-1	29	-1	63	-1	-1	-1	-1	-1	67	-1	36
-Sarah Streater	USA	USA-169	-1	30	58	39	-1	-1	-1	-1	-1	42	-1	-1
-Courtney Clamp	USA	USA-136	-1	31	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
-Billy Besson	FRA	FRA-001	-1	-1	1	2	-1	1	-1	-1	3	1	-1	3
-Franck Cammas	FRA	FRA-077	-1	-1	8	14	-1	2	-1	-1	13	22	-1	8
-Renee Groeneveld	NED	NED-243	-1	-1	10	11	-1	9	-1	-1	7	20	-1	6
-Moana Vaireaux	FRA	FRA-065	-1	-1	11	5	2	13	-1	-1	14	10	-1	7
-Matías Bühler	SUI	SUI-220	-1	-1	12	8	-1	7	-1	-1	9	6	-1	44
-Flora Laugier	FRA	FRA-085	-1	-1	19	24	-1	10	-1	-1	31	21	-1	27
-Tim Shuwalow	SWE	DWE-012	-1	-1	22	35	-1	-1	-1	29	-1	-1	-1	-1
-Audrey Ogereau	FRA	FRA-085	-1	-1	25	26	3	15	-1	-1	16	16	-1	-1
-Francesco Porro	ITA	ITA-126	-1	-1	26	36	8	-1	-1	8	28	26	-1	-1
-Maxim Semenov	RUS	RUS-227	-1	-1	27	37	13	-1	-1	-1	32	34	-1	-1
-Samuel Albrecht	BRA	BRA-231	-1	-1	28	-1	-1	-1	-1	-1	36	44	-1	31
-Rupert White	GBR	GBR-120	-1	-1	30	40	-1	25	5	-1	27	27	-1	30
-Tom Phipps	GBR	GBR-182	-1	-1	31	27	-1	11	4	-1	22	23	-1	20
-Evan Walker	AUS	AUS-217	-1	-1	32	32	12	20	-1	25	30	-1	-1	-1
-Paul Kohlhoff	GER	GER-211	-1	-1	35	34	-1	-1	-1	7	23	31	-1	19
-Alena Pankratova	RUS	RUS-255	-1	-1	36	60	-1	-1	-1	-1	52	60	-1	-1
-David Bondì	ITA	ITA-089	-1	-1	38	65	-1	-1	-1	13	38	43	-1	-1
-Lorenzo Bressani	ITA	ITA-209	-1	-1	40	30	-1	-1	-1	3	18	13	-1	16
-Ferdinando Trambaiolo	ITA	ITA-090	-1	-1	43	47	-1	-1	-1	-1	-1	-1	-1	-1
-Clinio Marcelino de Freitas Neto	BRA	BRA-230	-1	-1	44	48	-1	28	-1	-1	64	-1	-1	-1
-Sven Alberto Stadel	GER	ESP-151	-1	-1	45	53	-1	-1	-1	-1	-1	-1	-1	-1
-Marc Verdaguer Foz	ESP	ESP-198	-1	-1	46	-1	-1	-1	-1	-1	53	54	-1	-1
-Anette Viborg Andreasen	DEN	DEN-187	-1	-1	47	52	-1	24	-1	-1	33	32	-1	-1
-Francesco Sabatini	ITA	ITA-166	-1	-1	48	42	-1	-1	-1	12	42	-1	-1	-1
-Sergey Dzhienbaev	RUS	RUS-247	-1	-1	49	41	-1	27	-1	-1	34	30	-1	48
-Esteban Blando	ARG	ARG-149	-1	-1	50	28	-1	-1	-1	-1	-1	-1	-1	-1
-Vincenzo Sorrentino	ITA	ITA-32	-1	-1	51	22	-1	-1	-1	19	39	-1	-1	-1
-Jakob Lenz	GER	GER-092	-1	-1	52	49	-1	-1	-1	16	49	58	-1	-1
-Morgan Good	BEL	BEL-161	-1	-1	53	55	-1	-1	-1	-1	47	57	-1	40
-Finn Heeg	GER	GER-061	-1	-1	55	45	-1	33	-1	11	-1	45	-1	-1
-Ascension Roca De Togores	ESP	ESP-207	-1	-1	56	67	-1	-1	-1	-1	68	65	-1	-1
-Sofia Bekatorou	GRE	GRE-210	-1	-1	57	38	-1	26	-1	-1	41	33	-1	32
-Pablo Defazio Abella	URU	URU-147	-1	-1	59	44	-1	-1	-1	-1	37	39	-1	33
-Yamil Saba	VEN	VEN-168	-1	-1	60	50	-1	-1	-1	-1	-1	52	-1	-1
-Alicia Clifford	GBR	GBR-152	-1	-1	61	51	-1	29	6	-1	40	48	-1	-1
-Eckart Kaphengst	GER	GER-045	-1	-1	62	68	-1	-1	-1	21	56	55	-1	-1
-Anastasiya Kruchkova	RUS	RUS-13	-1	-1	63	56	-1	-1	-1	-1	70	-1	-1	-1
-Afonso Domingos	POR	POR-020	-1	-1	64	-1	16	-1	-1	-1	71	53	-1	-1
-Eli Llargués Masachs	ESP	ESP-188	-1	-1	65	-1	-1	-1	-1	-1	-1	-1	-1	-1
-Stefan Rumpf	GER	GER-10	-1	-1	66	-1	-1	-1	-1	24	67	-1	-1	-1
-Nicholas Fadler Martinsen	NOR	NOR-196	-1	-1	67	61	19	32	7	14	51	62	-1	-1
-Nancy Tymanova	RUS	RUS-164	-1	-1	68	-1	-1	-1	-1	-1	-1	-1	-1	-1
-Matteo Ferraglia	ITA	ITA-165	-1	-1	70	76	18	-1	-1	-1	57	-1	-1	-1
-Madeleine Anderson	GBR	GBR-162	-1	-1	71	70	-1	-1	-1	-1	48	59	-1	-1
-Thomas Haupt	GER	GER-150	-1	-1	72	72	-1	-1	-1	23	-1	-1	-1	-1
-Blandine Medecin Rodelato	MON	MON-007	-1	-1	73	75	-1	35	-1	-1	69	64	-1	-1
-Santiago Lange	ARG	ARG-226	-1	-1	-1	16	-1	-1	-1	5	11	2	-1	-1
-Mandy Mulder	NED	NED-244	-1	-1	-1	23	-1	14	-1	-1	20	18	-1	4
-Charles Hainneville	FRA	FRA-72	-1	-1	-1	43	-1	-1	-1	-1	45	-1	-1	-1
-Régis Bouyer	FRA	FRA-203	-1	-1	-1	46	-1	-1	-1	-1	-1	-1	-1	-1
-Rachel Basevi	NZL	NZL-229	-1	-1	-1	54	15	-1	-1	-1	-1	-1	-1	-1
-Vincent Domand	FRA	FRA-83	-1	-1	-1	57	-1	18	-1	-1	59	-1	-1	-1
-Flora Virag	HUN	HUN-218	-1	-1	-1	59	-1	30	-1	22	55	61	-1	-1
-Charlotte Müller	GER	GER-197	-1	-1	-1	62	-1	-1	-1	-1	-1	-1	-1	-1
-Joao Siemsen Bulhoes	BRA	BRA-230	-1	-1	-1	64	-1	-1	-1	-1	-1	49	-1	-1
-Geoffrey Woolley	NZL	NZL-155	-1	-1	-1	66	17	-1	-1	-1	-1	-1	-1	-1
-Pier Paolo Tocchio	ITA	ITA-106	-1	-1	-1	69	-1	-1	-1	-1	-1	-1	-1	-1
-Elena Trevisan	ITA	ITA-052	-1	-1	-1	71	-1	-1	-1	-1	-1	-1	-1	-1
-Michel Hardy	FRA	FRA-079	-1	-1	-1	73	-1	-1	-1	-1	-1	-1	-1	-1
-Katrin Brunner	GER	GER-221	-1	-1	-1	74	-1	-1	-1	-1	-1	-1	-1	-1
-Elke Delnooz	NED	NED-081	-1	-1	-1	-1	-1	31	-1	-1	25	28	-1	-1
-Koen Cleeren	BEL	NED-005	-1	-1	-1	-1	-1	34	-1	-1	-1	-1	-1	-1
-Hiroki Goto	JPN	JPN-157	-1	-1	-1	-1	-1	-1	8	-1	46	56	5	-1
-Tim Carter	GBR	GBR-119	-1	-1	-1	-1	-1	-1	10	-1	60	-1	-1	-1
-Ida Svensson	SWE	SWE-153	-1	-1	-1	-1	-1	-1	-1	10	35	37	-1	29
-Justin Liu	ESP	SIN-016	-1	-1	-1	-1	-1	-1	-1	18	-1	63	-1	-1
-Tat Choi Fung	HKG	HKG-216	-1	-1	-1	-1	-1	-1	-1	26	54	66	-1	-1
-Doris Hung	HKG	HKG-241	-1	-1	-1	-1	-1	-1	-1	27	-1	-1	-1	-1
-Markus Enzensperger	GER	GER-221	-1	-1	-1	-1	-1	-1	-1	-1	58	-1	-1	-1
-Alexander Alexandrov	BUL	BUL-48	-1	-1	-1	-1	-1	-1	-1	-1	61	-1	-1	-1
-Yoana Petrova	BUL	BUL-047	-1	-1	-1	-1	-1	-1	-1	-1	62	50	-1	41
-Romain Bellet	FRA	FRA-203	-1	-1	-1	-1	-1	-1	-1	-1	66	-1	-1	-1
-Fernando Echávarri	ESP	ESP-028	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	9
-John Gimson	GBR	GBR-076	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	15
-Jan Hauke Erichsen	GER	GER-258	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	18
-Michael Easton	USA	USA-234	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	21
-Stephanie Roble	USA	USA-104	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	34
-Bora Gulari	USA	USA-123	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	37
-John Casey	USA	USA-252	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	38
-Maxime Loiselle	CAN	CAN-135	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	39
-Evan Aras	USA	USA-170	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	42
-David Hein	USA	USA-025	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	43
-Cate Gundlach	USA	USA-237	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	45
-Andre MIRSKY	BRA	BRA-012	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	46
-Robbie Daniel Daniel	USA	USA-130	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	47
-Morgan Cuthbertson	CAN	CAN-180	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	49
+NAME	COUNTRY	SAILNO	MEL	MIA	MAL	HYE	GAR	DEL	SFG	KIE	EUR	SAN	MEL2014	MIA2015	MAL2015	HYE2015	DEL2015
+Darren Bundock	AUS	AUS-242	1	6	3	3	-1	3	-1	-1	21	9	2	-1	30	4	7
+Euan McNicol	AUS	AUS-158	2	8	9	4	4	-1	-1	-1	12	12	3	13	8	18	5
+Jason Waterhouse	AUS	AUS-003	3	19	16	12	7	6	-1	-1	5	3	1	-1	10	7	-1
+Joshua Mcknight	AUS	AUS-157	4	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Gemma Jones	NZL	NZL-222	5	-1	14	13	5	12	-1	-1	19	5	-1	5	12	14	3
+Paul Darmanin	AUS	AUS-156	6	-1	-1	-1	-1	-1	-1	15	44	-1	4	-1	-1	-1	-1
+Pip Pietromonaco	AUS	AUS-067	7	-1	69	18	11	22	-1	-1	24	17	-1	-1	-1	-1	-1
+Taylor Burn	NZL	NZL-159	8	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Vittorio Bissaro	ITA	ITA-262	-1	1	2	1	1	-1	-1	1	2	4	-1	1	6	11	-1
+Thomas Zajac	AUT	AUT-277	-1	2	4	7	-1	-1	-1	4	8	14	-1	11	23	13	-1
+Ben Saxton	GBR	GBR-254	-1	3	6	6	-1	4	3	-1	15	19	-1	2	19	5	9
+Iker Martinez de Lizarduy	ESP	ESP-108	-1	4	5	-1	-1	-1	-1	-1	1	68	-1	12	-1	-1	42
+Federica Salvà	ITA	ITA-219	-1	5	18	17	10	-1	-1	6	26	15	-1	28	21	17	10
+Luke Ramsay	CAN	CAN-271	-1	7	33	31	-1	-1	-1	-1	43	36	-1	17	18	9	-1
+Pippa Wilson	GBR	GBR-076	-1	9	13	10	-1	8	2	-1	6	8	-1	-1	-1	-1	-1
+Gabrio Zandonã	ITA	ITA-087	-1	10	20	29	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Toni Rivas	ESP	ESP-204	-1	11	24	-1	-1	-1	-1	-1	65	46	-1	23	41	33	-1
+Robert Daniel	USA	USA-130	-1	12	37	-1	-1	-1	-1	-1	-1	47	-1	47	-1	-1	-1
+Sarah Newberry	USA	USA-278	-1	13	17	19	-1	-1	-1	-1	-1	35	-1	22	27	25	15
+Sandra Sandqvist	SWE	SWE-054	-1	14	42	77	-1	-1	-1	28	-1	-1	-1	-1	52	-1	-1
+Enrique Figueroa	PUR	PUR-026	-1	15	23	-1	-1	-1	-1	-1	-1	25	-1	10	24	23	-1
+Lucy Macgregor	GBR	GBR-257	-1	16	7	9	-1	16	1	-1	17	7	-1	14	15	19	-1
+Lucas Gonzalez Smith	ARG	ARG-239	-1	17	-1	33	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Nicole van der Velden	ARU	ARU-212	-1	18	29	20	6	19	-1	-1	10	24	-1	24	22	27	13
+Allan Norregaard	DEN	DEN-281	-1	20	15	15	-1	23	-1	2	4	11	-1	-1	14	16	2
+Taylor Reiss	USA	USA-023	-1	21	41	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Stephanie Hudson	USA	USA-123	-1	22	-1	-1	-1	-1	9	17	50	40	-1	-1	-1	-1	31
+Jeremy Wilmot	AUS	USA-133	-1	23	-1	-1	-1	-1	-1	-1	-1	41	-1	25	33	-1	-1
+Ingrid Petitjean	FRA	FRA-199	-1	24	21	25	9	5	-1	-1	63	38	-1	-1	-1	-1	-1
+Sandra Tartaglino	USA	USA-033	-1	25	-1	-1	-1	-1	-1	-1	-1	-1	-1	35	-1	-1	-1
+Mark Mendelblatt	USA	USA-027	-1	26	34	-1	14	17	-1	-1	-1	-1	-1	26	-1	-1	23
+Lin Ea Cenholt Christiansen	DEN	DEN-282	-1	27	39	21	-1	21	-1	9	29	29	-1	-1	13	8	1
+Anne-Line Lyngsø Thomsen	DEN	DEN-080	-1	28	54	58	-1	-1	-1	20	-1	51	-1	-1	-1	-1	-1
+Katelyn Flood	USA	USA-189	-1	29	-1	63	-1	-1	-1	-1	-1	67	-1	36	-1	-1	-1
+Sarah Streater	USA	USA-169	-1	30	58	39	-1	-1	-1	-1	-1	42	-1	-1	-1	-1	-1
+Courtney Clamp	USA	USA-136	-1	31	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Billy Besson	FRA	FRA-001	-1	-1	1	2	-1	1	-1	-1	3	1	-1	3	1	1	4
+Franck Cammas	FRA	FRA-077	-1	-1	8	14	-1	2	-1	-1	13	22	-1	8	3	12	12
+Renee Groeneveld	NED	NED-243	-1	-1	10	11	-1	9	-1	-1	7	20	-1	6	9	3	-1
+Moana Vaireaux	FRA	FRA-065	-1	-1	11	5	2	13	-1	-1	14	10	-1	7	7	6	6
+Matías Bühler	SUI	SUI-220	-1	-1	12	8	-1	7	-1	-1	9	6	-1	44	5	15	8
+Flora Laugier	FRA	FRA-078	-1	-1	19	24	-1	10	-1	-1	31	21	-1	27	29	24	17
+Tim Shuwalow	SWE	SWE-012	-1	-1	22	35	-1	-1	-1	29	-1	-1	-1	-1	-1	-1	-1
+Audrey Ogereau	FRA	FRA-085	-1	-1	25	26	3	15	-1	-1	16	16	-1	-1	-1	-1	-1
+Francesco Porro	ITA	ITA-126	-1	-1	26	36	8	-1	-1	8	28	26	-1	-1	-1	-1	-1
+Maxim Semenov	RUS	RUS-227	-1	-1	27	37	13	-1	-1	-1	32	34	-1	-1	42	32	26
+Samuel Albrecht	BRA	BRA-231	-1	-1	28	-1	-1	-1	-1	-1	36	44	-1	31	-1	28	-1
+Rupert White	GBR	GBR-120	-1	-1	30	40	-1	25	5	-1	27	27	-1	30	-1	-1	-1
+Tom Phipps	GBR	GBR-120	-1	-1	31	27	-1	11	4	-1	22	23	-1	20	20	21	30
+Evan Walker	AUS	AUS-217	-1	-1	32	32	12	20	-1	25	30	-1	-1	-1	-1	-1	-1
+Paul Kohlhoff	GER	GER-211	-1	-1	35	34	-1	-1	-1	7	23	31	-1	19	32	10	18
+Alena Pankratova	RUS	RUS-255	-1	-1	36	60	-1	-1	-1	-1	52	60	-1	-1	53	-1	-1
+David Bondì	ITA	ITA-089	-1	-1	38	65	-1	-1	-1	13	38	43	-1	-1	-1	-1	-1
+Lorenzo Bressani	ITA	ITA-209	-1	-1	40	30	-1	-1	-1	3	18	13	-1	16	17	31	16
+Ferdinando Trambaiolo	ITA	ITA-090	-1	-1	43	47	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Clinio Marcelino de Freitas Neto	BRA	BRA-230	-1	-1	44	48	-1	28	-1	-1	64	-1	-1	-1	-1	-1	-1
+Sven Alberto Stadel	GER	ESP-151	-1	-1	45	53	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Marc Verdaguer Foz	ESP	ESP-198	-1	-1	46	-1	-1	-1	-1	-1	53	54	-1	-1	-1	-1	-1
+Anette Viborg Andreasen	DEN	DEN-187	-1	-1	47	52	-1	24	-1	-1	33	32	-1	-1	-1	-1	-1
+Francesco Sabatini	ITA	ITA-166	-1	-1	48	42	-1	-1	-1	12	42	-1	-1	-1	40	-1	-1
+Sergey Dzhienbaev	RUS	RUS-247	-1	-1	49	41	-1	27	-1	-1	34	30	-1	48	28	36	21
+Esteban Blando	ARG	ARG-149	-1	-1	50	28	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Vincenzo Sorrentino	ITA	ITA-32	-1	-1	51	22	-1	-1	-1	19	39	-1	-1	-1	-1	-1	-1
+Jakob Lenz	GER	GER-092	-1	-1	52	49	-1	-1	-1	16	49	58	-1	-1	-1	-1	-1
+Morgan Good	BEL	BEL-161	-1	-1	53	55	-1	-1	-1	-1	47	57	-1	40	45	-1	33
+Finn Heeg	GER	GER-061	-1	-1	55	45	-1	33	-1	11	-1	45	-1	-1	-1	-1	-1
+Ascension Roca De Togores	ESP	ESP-207	-1	-1	56	67	-1	-1	-1	-1	68	65	-1	-1	-1	-1	-1
+Sofia Bekatorou	GRE	GRE-210	-1	-1	57	38	-1	26	-1	-1	41	33	-1	32	25	26	20
+Pablo Defazio Abella	URU	URU-147	-1	-1	59	44	-1	-1	-1	-1	37	39	-1	33	-1	-1	25
+Yamil Saba	VEN	VEN-168	-1	-1	60	50	-1	-1	-1	-1	-1	52	-1	-1	-1	-1	-1
+Alicia Clifford	GBR	GBR-152	-1	-1	61	51	-1	29	6	-1	40	48	-1	-1	-1	-1	-1
+Eckart Kaphengst	GER	GER-045	-1	-1	62	68	-1	-1	-1	21	56	55	-1	-1	47	-1	-1
+Anastasiya Kruchkova	RUS	RUS-13	-1	-1	63	56	-1	-1	-1	-1	70	-1	-1	-1	-1	-1	-1
+Afonso Domingos	POR	POR-020	-1	-1	64	-1	16	-1	-1	-1	71	53	-1	-1	-1	-1	34
+Eli Llargués Masachs	ESP	ESP-188	-1	-1	65	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Stefan Rumpf	GER	GER-10	-1	-1	66	-1	-1	-1	-1	24	67	-1	-1	-1	-1	-1	-1
+Nicholas Fadler Martinsen	NOR	NOR-196	-1	-1	67	61	19	32	7	14	51	62	-1	-1	39	37	36
+Nancy Tymanova	RUS	RUS-164	-1	-1	68	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Matteo Ferraglia	ITA	ITA-165	-1	-1	70	76	18	-1	-1	-1	57	-1	-1	-1	-1	-1	-1
+Madeleine Anderson	GBR	GBR-162	-1	-1	71	70	-1	-1	-1	-1	48	59	-1	-1	-1	-1	-1
+Thomas Haupt	GER	GER-150	-1	-1	72	72	-1	-1	-1	23	-1	-1	-1	-1	-1	-1	-1
+Blandine Medecin Rodelato	MON	MON-007	-1	-1	73	75	-1	35	-1	-1	69	64	-1	-1	-1	-1	-1
+Santiago Lange	ARG	ARG-002	-1	-1	-1	16	-1	-1	-1	5	11	2	-1	-1	16	-1	-1
+Mandy Mulder	NED	NED-244	-1	-1	-1	23	-1	14	-1	-1	20	18	-1	4	4	2	11
+Charles Hainneville	FRA	FRA-072	-1	-1	-1	43	-1	-1	-1	-1	45	-1	-1	-1	37	30	22
+Régis Bouyer	FRA	FRA-203	-1	-1	-1	46	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Rachel Basevi	NZL	NZL-229	-1	-1	-1	54	15	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Vincent Domand	FRA	FRA-83	-1	-1	-1	57	-1	18	-1	-1	59	-1	-1	-1	-1	-1	-1
+Flora Virag	HUN	HUN-218	-1	-1	-1	59	-1	30	-1	22	55	61	-1	-1	-1	-1	-1
+Charlotte Müller	GER	GER-197	-1	-1	-1	62	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Joao Siemsen Bulhoes	BRA	BRA-230	-1	-1	-1	64	-1	-1	-1	-1	-1	49	-1	-1	-1	34	-1
+Geoffrey Woolley	NZL	NZL-155	-1	-1	-1	66	17	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Pier Paolo Tocchio	ITA	ITA-106	-1	-1	-1	69	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Elena Trevisan	ITA	ITA-052	-1	-1	-1	71	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Michel Hardy	FRA	FRA-079	-1	-1	-1	73	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Katrin Brunner	GER	GER-221	-1	-1	-1	74	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Elke Delnooz	NED	NED-081	-1	-1	-1	-1	-1	31	-1	-1	25	28	-1	-1	-1	-1	-1
+Koen Cleeren	BEL	NED-005	-1	-1	-1	-1	-1	34	-1	-1	-1	-1	-1	-1	-1	-1	-1
+Hiroki Goto	JPN	JPN-249	-1	-1	-1	-1	-1	-1	8	-1	46	56	5	-1	46	-1	32
+Tim Carter	GBR	GBR-119	-1	-1	-1	-1	-1	-1	10	-1	60	-1	-1	-1	-1	-1	-1
+Ida Svensson	SWE	SWE-153	-1	-1	-1	-1	-1	-1	-1	10	35	37	-1	29	31	35	27
+Justin Liu	ESP	SIN-016	-1	-1	-1	-1	-1	-1	-1	18	-1	63	-1	-1	44	38	38
+Tat Choi Fung	HKG	HKG-216	-1	-1	-1	-1	-1	-1	-1	26	54	66	-1	-1	43	39	39
+Doris Hung	HKG	HKG-241	-1	-1	-1	-1	-1	-1	-1	27	-1	-1	-1	-1	54	-1	-1
+Markus Enzensperger	GER	GER-221	-1	-1	-1	-1	-1	-1	-1	-1	58	-1	-1	-1	-1	-1	-1
+Alexander Alexandrov	BUL	BUL-48	-1	-1	-1	-1	-1	-1	-1	-1	61	-1	-1	-1	-1	-1	-1
+Yoana Petrova	BUL	BUL-047	-1	-1	-1	-1	-1	-1	-1	-1	62	50	-1	41	48	-1	35
+Romain Bellet	FRA	FRA-203	-1	-1	-1	-1	-1	-1	-1	-1	66	-1	-1	-1	-1	-1	-1
+Fernando Echávarri	ESP	ESP-028	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	9	11	-1	-1
+John Gimson	GBR	GBR-201	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	15	2	20	19
+Jan Hauke Erichsen	GER	GER-258	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	18	26	29	14
+Michael Easton	USA	USA-234	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	21	56	-1	24
+Stephanie Roble	USA	USA-104	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	34	-1	-1	-1
+Bora Gulari	USA	USA-123	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	37	-1	-1	-1
+John Casey	USA	USA-204	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	38	38	-1	-1
+Maxime Loiselle	CAN	CAN-135	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	39	49	-1	-1
+Evan Aras	USA	USA-170	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	42	-1	-1	-1
+David Hein	USA	USA-025	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	43	-1	-1	-1
+Cate Gundlach	USA	USA-237	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	45	-1	-1	-1
+Andre Mirsky	BRA	BRA-116	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	46	-1	-1	37
+Morgan Cuthbertson	CAN	CAN-180	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	49	-1	-1	-1
+Samuel Albretch	BRA	BRA-231	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	34	-1	-1
+João SIEMSEN BULHÕES	BRA	BRA-230	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	35	-1	-1
+Marina Lopez	ESP	ESP-108	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	36	22	-1
+Viatcheslav Sheludyakov	RUS	RUS-013	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	50	-1	-1
+Jean Rodelato	MON	MON-007	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	51	-1	41
+Daniel Mulley	AUT	AUT-092	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	55	-1	40
+Olivia Mackay	NZL	NZL-261	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	28
+Juliana PONCIONI MOTA	BRA	BRA-203	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	29
+Murugan Nadar	IND	IND-239	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	42

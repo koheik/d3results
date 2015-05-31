@@ -127,8 +127,116 @@ def isaf_parse(fname, keytext, table)
 		end
 
 		skipper = "Matías Bühler" if (skipper == "Matías Bühler Matías")
+		skipper = 'Robert Daniel' if (skipper == 'Robbie Daniel Daniel')
+		skipper = 'Andre Mirsky' if (skipper == 'Andre MIRSKY')
 
 		sailno.match(/(\w{3})\s*(\d+)/) do |md|
+			sailno = sprintf("%s-%03d", md[1], md[2].to_i)
+		end
+		if (table[skipper].nil?) then
+			table[skipper] = {:country => country, :sailno => sailno}
+		else
+			table[skipper][:sailno] = sailno
+		end
+		table[skipper][keytext] = position.to_i;
+	end
+end
+
+def isaf2_parse(fname, keytext, table)
+	doc = REXML::Document.new(open(fname))
+	doc.elements.each('table/tr') do |el|
+		position = el.elements["td[1]"].text
+		country  = el.elements["td[2]"].text
+		sailno   = el.elements["td[3]"].text
+		skipper  = el.elements['td[4]/div[1]/a[1]'].text
+		if (el.elements['td[4]/div[2]/a[1]']) then
+			crew = el.elements['td[4]/div[2]/a[1]'].text
+		end
+
+		if (skipper == 'Matías Bühler Matías') then
+			skipper = 'Matías Bühler'
+		end
+
+		sailno.match(/(\w{3})\s*(\d+)/) do |md|
+			sailno = sprintf("%s-%03d", md[1], md[2].to_i)
+		end
+		if (table[skipper].nil?) then
+			table[skipper] = {:country => country, :sailno => sailno}
+		else
+			table[skipper][:sailno] = sailno
+		end
+		table[skipper][keytext] = position.to_i;
+	end
+end
+
+def eurosaf_parse(fname, keytext, table)
+	doc = REXML::Document.new(open(fname))
+	doc.elements.each('table/tr') do |el|
+		position = el.elements["td[1]"].text
+		sailno   = el.elements["td[2]"].text
+		skipper  = el.elements["td[5]"].text
+		crew  = el.elements["td[6]"].text
+
+		skipper = 'Lin Ea Cenholt Christiansen' if (skipper == 'Lin Ea Cenholt Christiansen CENHOLT CHRISTIANSEN')	
+		skipper = 'Euan McNicol' if (skipper == 'Euan Witton MCNICOL')
+		skipper = 'Fernando Echávarri' if (skipper == 'Fernando ECHAVARRI ERASUN')
+		skipper = 'Allan Norregaard' if (skipper == 'Allan NØRREGAARD')
+		skipper = 'Matías Bühler' if (skipper == 'Matias BÜHLER')
+		skipper = 'Federica Salvà' if (skipper == 'Federica SALVÀ')
+		skipper = 'Nicole van der Velden' if (skipper == 'Nicole VAN DER VELDEN')
+		skipper = 'Jeremy Wilmot' if (skipper == 'Jeremy  Wilmot')
+		skipper = 'Maxim Semenov' if (skipper == 'Maksim SEMENOV')
+		skipper = 'Morgan Good' if (skipper == 'Good MORGAN')
+
+		skipper.match(/^([A-Z][a-z]+) ([A-Z]+)$/) do |md|
+			skipper = md[1] + " " + md[2].capitalize
+		end
+		skipper.match(/^([A-Z][a-z]+) ([A-Z][a-z]+) ([A-Z]+)$/) do |md|
+			skipper = md[1] + " " + md[2].capitalize + " " + md[3].capitalize
+		end
+
+		country = ''
+		sailno.match(/(\w{3})\s*(\d+)/) do |md|
+			country = md[1]
+			sailno = sprintf("%s-%03d", md[1], md[2].to_i)
+		end
+		if (table[skipper].nil?) then
+			table[skipper] = {:country => country, :sailno => sailno}
+		else
+			table[skipper][:sailno] = sailno
+		end
+		table[skipper][keytext] = position.to_i;
+	end
+end
+
+def eurosaf2_parse(fname, keytext, table)
+	doc = REXML::Document.new(open(fname))
+	doc.elements.each('table/tr') do |el|
+		position = el.elements["td[1]"].text
+		sailno = el.elements["td[3]"].texts[1].to_s
+		skipper   = el.elements["td[4]/div[1]/a[1]"].text
+
+		skipper = 'Lin Ea Cenholt Christiansen' if (skipper == 'Lin Ea CENHOLT')	
+		skipper = 'Euan McNicol' if (skipper == 'McNicol EUAN')
+		skipper = 'Nicole van der Velden' if (skipper == 'Nicole van der VELDEN')
+		skipper = 'Tat Choi Fung' if (skipper == 'FUNG Tat Choi')
+		skipper = 'Allan Norregaard' if (skipper == 'Allan NØRREGAARD')
+		skipper = 'Matías Bühler' if (skipper == 'Matias BÜHLER')
+		skipper = 'Maxim Semenov' if (skipper == 'Maksim SEMENOV')
+
+		skipper.match(/^([A-Z][a-z]+) ([A-Z]+)$/) do |md|
+			skipper = md[1] + " " + md[2].capitalize
+		end
+		skipper.match(/^([A-Z][a-z]+) ([A-Z][a-z]+) ([A-Z]+)$/) do |md|
+			skipper = md[1] + " " + md[2].capitalize + " " + md[3].capitalize
+		end
+		skipper = 'Federica Salvà' if (skipper == 'Federica Salva')
+		skipper = 'Iker Martinez de Lizarduy' if (skipper == 'Iker Martinez')
+		skipper = 'Pablo Defazio Abella' if (skipper == 'Pablo Defazio')
+
+		country = ''
+		sailno.match(/(\w{3})\s*(\d+)/) do |md|
+			country = md[1]
 			sailno = sprintf("%s-%03d", md[1], md[2].to_i)
 		end
 		if (table[skipper].nil?) then
@@ -153,10 +261,16 @@ csvparse("results/European_2014.csv", :EUR2014, table)
 isaf_parse("results/santander_2014.html", :SAN2014, table)
 isaf_parse("results/melbourne_2014.html", :MEL2014, table)
 isaf_parse("results/miami_2015.html", :MIA2015, table)
+eurosaf_parse("results/mallorca_2015.html", :MAL2015, table)
+isaf2_parse("results/hyeres_2015.html", :HYE2015, table)
+eurosaf2_parse("results/delta_lloyd_2015.html", :DEL2015, table)
 
-fmt = "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n"
-printf(fmt, "NAME", "COUNTRY", "SAILNO", "MEL", "MIA", "MAL", "HYE", "GAR", "DEL", "SFG", "KIE", "EUR", "SAN", "MEL2014", "MIA2015")
-fmt = "%s\t%s\t%s\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\n"
+column = ["NAME", "COUNTRY", "SAILNO",
+	"MEL", "MIA", "MAL", "HYE", "GAR", "DEL", "SFG", "KIE", "EUR", "SAN",
+	"MEL2014", "MIA2015", "MAL2015", "HYE2015", "DEL2015"]
+fmt = (["%s"] * column.length).join("\t") + "\n";
+printf(fmt, *column)
+fmt = (["%s"] * column.length).join("\t") + "\n"
 
 table.each do |key, val|
 	printf(fmt,
@@ -174,6 +288,9 @@ table.each do |key, val|
 		val[:EUR2014].nil? ? -1 : val[:EUR2014],
 		val[:SAN2014].nil? ? -1 : val[:SAN2014],
 		val[:MEL2014].nil? ? -1 : val[:MEL2014],
-		val[:MIA2015].nil? ? -1 : val[:MIA2015]
+		val[:MIA2015].nil? ? -1 : val[:MIA2015],
+		val[:MAL2015].nil? ? -1 : val[:MAL2015],
+		val[:HYE2015].nil? ? -1 : val[:HYE2015],
+		val[:DEL2015].nil? ? -1 : val[:DEL2015],
 	)
 end
